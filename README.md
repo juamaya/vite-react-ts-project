@@ -284,10 +284,10 @@ Y sustituye el componente:
 ```
 > Tus direcciones quedarán así:
 
-   - Inicio: https://TU_USUARIO.github.io/vite-react-ts-project/
+   - Inicio: https://TU_USUARIO.github.io/vite-react-ts-project/#/
 
-   - Servicios: https://TU_USUARIO.github.io/vite-react-ts-project/servicios
+   - Servicios: https://TU_USUARIO.github.io/vite-react-ts-project/#/servicios
 
-   - Proyectos: https://TU_USUARIO.github.io/vite-react-ts-project/proyectos
+   - Proyectos: https://TU_USUARIO.github.io/vite-react-ts-project/#/proyectos
 
 Así evitarás los errores 404 al actualizar las páginas.

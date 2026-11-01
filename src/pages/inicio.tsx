@@ -1,9 +1,21 @@
 import reactImg from "../assets/react.svg";
+import Hero from "../components/Hero";
 
 const inicio = () => {
   return (
     <div>
-      <main className="flex min-h-screen flex-col items-center bg-purple-500 p-24">
+      <main className="flex min-h-screen flex-col items-center bg-purple-500 mb-5">
+        <Hero
+          subtitle="CREATIVIDAD · TECNOLOGÍA · INNOVACIÓN"
+          title="Diseñamos el futuro. Creamos experiencias."
+          description="Transformamos tus ideas en experiencias digitales extraordinarias. Creamos soluciones web modernas, atractivas y funcionales para llevar tu negocio al siguiente nivel."
+          image="https://images.unsplash.com/photo-1497366754035-f200968a6e72"
+          imageAlt="Oficina moderna y tecnológica"
+          primaryButton="Empezar proyecto"
+       
+          primaryLink="/vite-react-ts-project/ "
+        
+        />
         <h1 className="text-4xl font-bold mb-10">
           {" "}
           Vite + React + Tailwind CSS + TypeScript
@@ -14,8 +26,10 @@ const inicio = () => {
           className="rounded-lg shadow-lg w-50 h-50"
         />
 
-      <p className="mt-10 text-lg text-white">
-          This is a simple React application built with Vite, Tailwind CSS, and TypeScript. It demonstrates the use of modern web development tools and practices.
+        <p className="mt-10 text-lg text-white">
+          This is a simple React application built with Vite, Tailwind CSS, and
+          TypeScript. It demonstrates the use of modern web development tools
+          and practices.
         </p>
       </main>
     </div>
