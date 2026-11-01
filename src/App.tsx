@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from "react-router-dom";
 import Navbar from './components/Navbar';
 import AnimatedRoutes from './components/AnimatedRoutes';
 import Footer from './components/Footer';
@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen bg-slate-950 text-white">
         <Navbar />
 
@@ -16,7 +16,7 @@ function App() {
 
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
