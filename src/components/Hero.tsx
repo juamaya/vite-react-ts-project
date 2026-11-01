@@ -22,7 +22,7 @@ export default function Hero({
  
 }: HeroProps) {
   return (
-    <section className="relative isolate overflow-hidden bg-slate-950 px-6 py-10 text-white sm:py-28 lg:py-10">
+    <section className="relative isolate overflow-hidden bg-slate-950 px-6 py-10 text-white m-5 w-full sm:py-28 lg:py-10">
       {/* BACKGROUND */}
       <div className="absolute -left-40 top-20 -z-10 h-96 w-96 rounded-full bg-cyan-500/10 blur-[120px]" />
 
